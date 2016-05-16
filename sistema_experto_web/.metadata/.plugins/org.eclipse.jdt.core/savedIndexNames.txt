@@ -18,16 +18,16 @@ INDEX VERSION 1.127+C:\Users\Mili\Documents\GitHub\PROYECTOII\sistema_experto_we
 642964287.index
 4220689766.index
 3883868377.index
-1817154575.index
 1675003925.index
+1817154575.index
 2694872904.index
 4098086001.index
 1056465545.index
 2817896922.index
 3411038923.index
-104781604.index
 2352191424.index
 2250136048.index
+104781604.index
 2348113578.index
 35764307.index
 3208426689.index
@@ -39,6 +39,7 @@ INDEX VERSION 1.127+C:\Users\Mili\Documents\GitHub\PROYECTOII\sistema_experto_we
 426643956.index
 3668621785.index
 3085476049.index
+2599068832.index
 499205397.index
 3264989491.index
 3713753244.index

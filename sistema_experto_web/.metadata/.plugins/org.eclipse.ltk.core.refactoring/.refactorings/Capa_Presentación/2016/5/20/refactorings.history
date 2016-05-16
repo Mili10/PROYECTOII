@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Capa_Presentación/WebContent/frmRegistroEnfermedad.jsp&apos; to &apos;frmRegistroSintoma.jsp&apos;" description="Rename resource &apos;frmRegistroEnfermedad.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/frmRegistroEnfermedad.jsp" name="frmRegistroSintoma.jsp" stamp="1463369319057" updateReferences="true"/>
+</session>
