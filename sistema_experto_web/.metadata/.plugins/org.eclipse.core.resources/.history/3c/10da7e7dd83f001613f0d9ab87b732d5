@@ -1,0 +1,10 @@
+package com.bc;
+
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class RedBayesiana {
+	public Map<String, Set<String>> grafo = new TreeMap()<>;
+
+}

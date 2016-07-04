@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.log.RedBayesiana&apos; to &apos;Grafo&apos;&#x0D;&#x0A;- Original project: &apos;Capa_Lógica&apos;&#x0D;&#x0A;- Original element: &apos;com.log.RedBayesiana&apos;&#x0D;&#x0A;- Renamed element: &apos;com.log.Grafo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;RedBayesiana&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.log{RedBayesiana.java[RedBayesiana" matchStrategy="1" name="Grafo" qualified="false" references="true" similarDeclarations="false" stamp="1465788807972" textual="false" version="1.0"/>
+</session>

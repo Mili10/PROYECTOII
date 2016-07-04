@@ -1,0 +1,14 @@
+package com.bc;
+
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
+public class RedBayesiana {
+	public Map<String, String> grafo = new TreeMap<>();
+	public Set<String> sintomas = new TreeSet<>();
+	//sintomas.add(dmuscular, dcabeza, darticular, vomito, fiebre, nauseas);
+	grafo.put<D_cabeza, ~dengue>();
+
+}

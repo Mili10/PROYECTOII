@@ -1,0 +1,19 @@
+package com.log;
+
+import java.sql.Array;
+
+public class Inferencia {
+	String[] sintomas = new String[]{"D_muscular", "D_cabeza", "D_articular", "Vomito", "Fiebre", "Nauseas"};
+	
+	
+	public float infer (Array [] cond){
+		float prob=0;
+		if(cond[1].equals(sintomas[1])){
+			
+		}
+		return prob;
+		
+		//return;
+		
+	}
+}

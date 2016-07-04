@@ -1,0 +1,12 @@
+127.0.0.1 - - [02/Jul/2016:15:56:46 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/frmCuestionario.jsp HTTP/1.1" 200 6985
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/Plantilla/css/bootstrap.css HTTP/1.1" 200 141414
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/Plantilla/js/jquery-1.11.1.js HTTP/1.1" 200 282766
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/Plantilla/js/bootstrap.js HTTP/1.1" 200 60681
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/Plantilla/css/font-awesome.css HTTP/1.1" 200 28747
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:50 -0500] "GET /Capa_Presentaci%C3%B3n/Plantilla/css/style.css HTTP/1.1" 200 6419
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:56:53 -0500] "GET /favicon.ico HTTP/1.1" 404 1024
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:58:50 -0500] "GET /Capa_Presentaci%C3%B3n/frmCuestionario.jsp HTTP/1.1" 200 7088
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:58:59 -0500] "GET /Capa_Presentaci%C3%B3n/frmRegistroSintoma.jsp HTTP/1.1" 200 5532
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:15:59:11 -0500] "GET /Capa_Presentaci%C3%B3n/frmCuestionario.jsp HTTP/1.1" 200 7088
+0:0:0:0:0:0:0:1 - - [02/Jul/2016:16:01:04 -0500] "GET /Capa_Presentaci%C3%B3n/frmCuestionario.jsp HTTP/1.1" 200 7025
