@@ -30,7 +30,6 @@
                     <div class="panel-body">
                      
                      	<div class="col-md-6">
-	                       <form>
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene dolor muscular?</label>
 								</div>								
@@ -46,65 +45,56 @@
 								    NO
 								  </label>
 								</div>	
-							</form> 
-							
-							<form>
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene dolor de cabeza?</label>
 								</div>								
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion2DC" id="optionsRadios1" value="D_cabeza" >
+								    <input type="radio" name="opcion2DC" id="opcion2DC" value="D_cabeza" >
 								    SÍ
 								  </label>
 								</div>
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion2DC" id="optionsRadios2" value="~D_cabeza">
+								    <input type="radio" name="opcion2DC" id="opcion2DC1" value="~D_cabeza">
 								    NO
 								  </label>
 								</div>	
-							</form>  
-							
-							<form>
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene dolor articular?</label>
 								</div>								
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion3DA" id="optionsRadios1" value="D_articular">
+								    <input type="radio" name="opcion3DA" id="opcion3DA" value="D_articular">
 								    SÍ
 								  </label>
 								</div>
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion3DA" id="optionsRadios2" value="~D_articular">
+								    <input type="radio" name="opcion3DA" id="opcion3DA1" value="~D_articular">
 								    NO
 								  </label>
 								</div>	
-							</form>
 						</div>     
-						 
+						
 						 <div class="col-md-6">
-	                       <form>
+	                     
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene vómito?</label>
 								</div>								
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion4V" id="optionsRadios1" value="Vomito">
+								    <input type="radio" name="opcion4V" id="opcion4V" value="Vomito" >
 								    SÍ
 								  </label>
 								</div>
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion4V" id="optionsRadios2" value="~Vomito">
+								    <input type="radio" name="opcion4V" id="opcion4V1" value="~Vomito">
 								    NO
 								  </label>
 								</div>	
-							</form>
-							
-							<form>
+
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene fiebre?</label>
 								</div>								
@@ -120,9 +110,6 @@
 								    NO
 								  </label>
 								</div>	
-							</form>
-							
-							<form>
 								<div class="form-group">
 								    <label for="exampleInputEmail1">¿Tiene náuseas?</label>
 								</div>								
@@ -137,8 +124,7 @@
 								    <input type="radio" name="opcion6N" id="optionsRadios2" value="~Nauseas">
 								    NO
 								  </label>
-								</div>	
-							</form>							
+								</div>								
 						 </div> 					           
                        
                      </div> 

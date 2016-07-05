@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.log.Inferencia;
 
+
 /**
  * Servlet implementation class sCuestionario
  */
@@ -27,7 +28,7 @@ public class sCuestionario extends HttpServlet {
 	}
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		//doGet(request, response);
 		PrintWriter out = response.getWriter();
 		try{
 		String [] cond = new String [6];
@@ -35,14 +36,16 @@ public class sCuestionario extends HttpServlet {
 				
 		String dmuscular, dcabeza, darticular, vomito, fiebre, nauseas;
 		
+		dmuscular= request.getParameter("opcion1DM");
+		dcabeza = request.getParameter("opcion2DC");
+		darticular = request.getParameter("opcion3DA");
+		vomito = request.getParameter("opcion4V");
+		fiebre = request.getParameter("opcion5F");
+		nauseas = request.getParameter("opcion6N");
+			
+		
 		if(request.getParameter("btnDiagnosticar")!=null){
-			dmuscular= request.getParameter("opcion1DM");
-			dcabeza = request.getParameter("opcion2DC");
-			darticular = request.getParameter("opcion3DA");
-			vomito = request.getParameter("opcion4V");
-			fiebre = request.getParameter("opcion5F");
-			nauseas = request.getParameter("opcion6N");
-				
+			
 		cond[0] = dmuscular;
 		cond[1] = dcabeza;
 		cond[2] = darticular;
@@ -54,7 +57,9 @@ public class sCuestionario extends HttpServlet {
 		float probb = obj.inferPConjunta(cond);
 		float probabilidad = obj.inferTeoremaBayes(prob, probb);
 		
-		out.println("Probabilidad de tener dengue"+probabilidad+"<br>");
+		out.print("<script>alert('Probabilidad de tener dengue "+probabilidad+"')</script>");
+		//response.sendRedirect("frmCuestionario.jsp");
+		//out.println("Probabilidad de tener dengue"+probabilidad+"<br>");
 		}	
 				
 		//response.sendRedirect("frmRegistroSintoma.jsp");

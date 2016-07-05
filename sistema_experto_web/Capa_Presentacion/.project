@@ -33,4 +33,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Capa_Logica</name>
+			<type>2</type>
+			<locationURI>WORKSPACE_LOC/Capa_Logica/src</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
