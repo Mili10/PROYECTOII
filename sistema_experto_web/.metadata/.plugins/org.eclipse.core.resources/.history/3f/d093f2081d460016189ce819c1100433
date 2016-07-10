@@ -1,0 +1,25 @@
+package com.bc;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
+
+public class RedBayesina
+{
+	public void CargarArchivo(){
+		Properties grafico = new Properties();
+		//InputStream _graph = null;
+		try{
+			//_graph = new FileInputStream("/probs.xml");
+			grafico.loadFromXML(getClass().getResourceAsStream("/probs.xml"));
+		}catch(FileNotFoundException e){
+			System.out.println("Error, El archivo no exite");
+		}catch(IOException e){
+			System.out.println("Error, No se puede leer el archivo");
+		}
+	}
+	
+}
+

@@ -35,6 +35,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Capa_BaseConocimiento</name>
+			<type>2</type>
+			<locationURI>WORKSPACE_LOC/Capa_BaseConocimiento/src</locationURI>
+		</link>
+		<link>
 			<name>Capa_Logica</name>
 			<type>2</type>
 			<locationURI>WORKSPACE_LOC/Capa_Logica/src</locationURI>

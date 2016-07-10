@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment/>
+<entry key="dengue">0.75</entry>
+<entry key="d_muscular|dengue">0.7</entry>
+<entry key="d_muscular|~dengue">0.4</entry>
+<entry key="d_cabeza|dengue">0.8</entry>
+<entry key="d_cabeza|~dengue">0.6</entry>
+<entry key="d_articular|dengue">0.9</entry>
+<entry key="d_articular|~dengue">0.4</entry>
+<entry key="vomito|dengue">0.95</entry>
+<entry key="vomito|~dengue">0.25</entry>
+<entry key="fiebre|dengue">0.5</entry>
+<entry key="fiebre|~dengue">0.2</entry>
+<entry key="nauseas|dengue">0.3</entry>
+<entry key="nauseas|~dengue">0.6</entry>
+</properties>

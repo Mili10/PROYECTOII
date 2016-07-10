@@ -1,0 +1,10 @@
+package com.log;
+
+import java.io.FileInputStream;
+
+import com.bc.RedBayesina;
+
+public class InferenciaII {
+	//final RedBayesina rb = new RedBayesina(new FileInputStream("/grafo.xml"), new FileInputStream(""));
+
+}

@@ -1,0 +1,39 @@
+package com.log;
+
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Properties;
+
+import com.bc.RedBayesina;
+
+public class InferenciaII {
+	RedBayesina grafo = new RedBayesina();
+	
+	public float ProbabilidadI(String [] cond){
+		Properties _grafo = grafo.getPropiertesEnfermedad();
+		float prob = 0;
+		for(Map.Entry<Object, Object> item:_grafo.entrySet())
+		{
+			final String Key = item.getKey().toString();
+			for(int i=0; i<cond.length;i++){
+				if(cond[i].equals(Key)){
+					
+				}
+			}
+		}
+		return prob;
+	}
+	
+	public static Map<String, String> propertiesToMap(Properties props) {
+		   HashMap<String, String> hm = new HashMap<String,String>();
+		   Enumeration<Object> e = props.keys();
+		   while (e.hasMoreElements()) {
+		     String s = (String)e.nextElement();
+		     hm.put(s, props.getProperty(s));
+		   }
+		   return hm;
+		 }
+
+}

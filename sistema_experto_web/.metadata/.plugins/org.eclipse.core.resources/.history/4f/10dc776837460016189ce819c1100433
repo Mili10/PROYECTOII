@@ -1,0 +1,17 @@
+package com.log;
+
+import java.util.Properties;
+
+import com.bc.RedBayesina;
+
+public class InferenciaII {
+	RedBayesina grafo = new RedBayesina();
+	
+	public float ProbabilidadI(String [] cond){
+		Properties _grafo = grafo.getPropiertes();
+		float prob = 0;
+		_grafo.entrySet();
+		return prob;
+	}
+
+}

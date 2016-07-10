@@ -9,8 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.log.Inferencia;
-
+import com.log.InferenciaII;
 
 /**
  * Servlet implementation class sCuestionario
@@ -32,7 +31,7 @@ public class sCuestionario extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		try{
 		String [] cond = new String [6];
-		Inferencia obj = new Inferencia();
+		InferenciaII obj = new InferenciaII();
 				
 		String dmuscular, dcabeza, darticular, vomito, fiebre, nauseas;
 		
@@ -46,23 +45,20 @@ public class sCuestionario extends HttpServlet {
 		
 		if(request.getParameter("btnDiagnosticar")!=null){
 			
-		cond[0] = dmuscular;
-		cond[1] = dcabeza;
-		cond[2] = darticular;
-		cond[3] = vomito;
-		cond[4] = fiebre;
-		cond[5] = nauseas;
+		cond[0] = dmuscular; //D_muscular
+		cond[1] = dcabeza;//D_cabeza
+		cond[2] = darticular;//D_articular
+		cond[3] = vomito;//Vomito
+		cond[4] = fiebre;//Fiebre
+		cond[5] = nauseas;//Nauseas
 		
-		float prob = obj.inferI(cond);
-		float probb = obj.inferPConjunta(cond);
+		float prob = obj.ProbabilidadI(cond);
+		float probb = obj.ProbabilidadII(cond);
 		float probabilidad = obj.inferTeoremaBayes(prob, probb);
+
+		out.print("<script type=\"text/javascript\">alert("	+probabilidad+  ");void 0;window.location='frmCuestionario.jsp'</script>");
 		
-		out.print("<script>alert('Probabilidad de tener dengue "+probabilidad+"')</script>");
-		//response.sendRedirect("frmCuestionario.jsp");
-		//out.println("Probabilidad de tener dengue"+probabilidad+"<br>");
 		}	
-				
-		//response.sendRedirect("frmRegistroSintoma.jsp");
 		}catch(Exception e){
 			out.print("<script>alert('"+e.getMessage()+"')</script>");
 			

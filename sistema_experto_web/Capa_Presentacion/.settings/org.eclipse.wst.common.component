@@ -3,6 +3,7 @@
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/Capa_Logica"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/Capa_BaseConocimiento"/>
         <property name="java-output-path" value="/Capa_Presentacion/build/classes"/>
         <property name="context-root" value="Capa_Presentacion"/>
     </wb-module>

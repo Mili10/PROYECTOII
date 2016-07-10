@@ -1,0 +1,9 @@
+package com.log;
+
+import com.bc.RedBayesina;
+
+public class InferenciaII {
+	RedBayesina grafo = new RedBayesina();
+	
+
+}

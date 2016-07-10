@@ -1,0 +1,11 @@
+package com.bc;
+
+import java.util.Properties;
+
+public class RedBayesina
+{
+	Properties grafico = new Properties();
+	
+	grafico.loadFromXML(new FileInputStream("/probs.xml"));
+}
+

@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="page-head-line">TEST DE DIAGNOSTICO DEL DENGUE !! </h4>
+                    <h4 class="page-head-line">TEST DE DIAGNOSTICO DE ENFERMEDADES: ZIKA, DENGUE Y CHIKUNGUNYA!! </h4>
                 </div>
             </div>                
                     <div class="panel panel-default">
@@ -30,18 +30,33 @@
                     <div class="panel-body">
                      
                      	<div class="col-md-6">
-								<div class="form-group">
-								    <label for="exampleInputEmail1">¿Tiene dolor muscular?</label>
+                     			<div class="form-group">
+								    <label for="exampleInputEmail1">¿Tiene conjuntivitis?</label>
 								</div>								
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion1DM" id="optionsRadios1" value="D_muscular" >
+								    <input type="radio" name="opcionC" id="opcionC" value="Conjuntivitis" >
 								    SÍ
 								  </label>
 								</div>
 								<div class="radio">
 								  <label>
-								    <input type="radio" name="opcion1DM" id="optionsRadios2" value="~D_muscular">
+								    <input type="radio" name="opcionC" id="opcionC" value="~Conjuntivitis">
+								    NO
+								  </label>
+								</div>	                     			
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Tiene dolor muscular?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcion1DM" id="opcion1DM" value="D_muscular" >
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcion1DM" id="opcion1DM1" value="~D_muscular">
 								    NO
 								  </label>
 								</div>	
@@ -75,6 +90,51 @@
 								    NO
 								  </label>
 								</div>	
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Tiene erupción cutánea?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionEC" id="opcionEC" value="E_cutanea">
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionEC" id="opcionEC1" value="~E_cutanea">
+								    NO
+								  </label>
+								</div>
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Tiene cansancio?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionCA" id="opcionCA" value="Cansancio">
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionCA" id="opcionCA1" value="~Cansancio">
+								    NO
+								  </label>
+								</div>
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Sufre de agrandamiento de los ganglios linfáticos?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionAGL" id="opcionAGL" value="AG_Lingaticos">
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionAGL" id="opcionAGL1" value="~AG_Lingaticos">
+								    NO
+								  </label>
+								</div>
 						</div>     
 						
 						 <div class="col-md-6">
@@ -124,7 +184,52 @@
 								    <input type="radio" name="opcion6N" id="optionsRadios2" value="~Nauseas">
 								    NO
 								  </label>
+								</div>	
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Sufre de alteración de estado de conciencia?</label>
 								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionAEC" id="opcionAEC" value="AE_conciencia" >
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionAEC" id="opcionAEC" value="~AE_conciencia">
+								    NO
+								  </label>
+								</div>
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Tiene sangrado de mucosa?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionSM" id="opcionSM" value="S_mucosa" >
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionSM" id="opcionSM" value="~S_mucosa">
+								    NO
+								  </label>
+								</div>
+								<div class="form-group">
+								    <label for="exampleInputEmail1">¿Siente sus extremidades frias?</label>
+								</div>								
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionEF" id="opcionEF" value="E_frias" >
+								    SÍ
+								  </label>
+								</div>
+								<div class="radio">
+								  <label>
+								    <input type="radio" name="opcionEF" id="opcionEF" value="~E_frias">
+								    NO
+								  </label>
+								</div>							
 						 </div> 					           
                        
                      </div> 

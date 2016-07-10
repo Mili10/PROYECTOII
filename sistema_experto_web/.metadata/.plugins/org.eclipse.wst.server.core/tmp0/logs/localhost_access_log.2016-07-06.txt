@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/Jul/2016:16:34:05 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:16:34:07 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:16:34:07 -0500] "GET /favicon.ico HTTP/1.1" 404 1024
+127.0.0.1 - - [06/Jul/2016:17:17:31 -0500] "GET / HTTP/1.1" 404 1002
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:17:32 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:17:44 -0500] "POST /Capa_Presentacion/sCuestionario HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:17:54 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:18:49 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:18:58 -0500] "POST /Capa_Presentacion/sCuestionario HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:19:08 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:19:40 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:19:48 -0500] "POST /Capa_Presentacion/sCuestionario HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:19:56 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:20:18 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:20:29 -0500] "POST /Capa_Presentacion/sCuestionario HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [06/Jul/2016:17:20:41 -0500] "GET /Capa_Presentacion/frmCuestionario.jsp HTTP/1.1" 200 6853
